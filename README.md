@@ -75,7 +75,7 @@ pkg-config --cflags --libs opencv4
    - Other Linker Flags
      - `pkg-config --cflags --libs opencv4` 결과 값 전체 저장
 4. Project - Signing & Capabilities - Target File: 설정 추가
-   - Disable Library Validation: 활성화
+   - Runtime Exceptions - Disable Library Validation: 활성화
 
 #### 테스트
 
@@ -96,10 +96,13 @@ int main(int argc, const char * argv[]) {
 
 #### 이미지 파일 불러오기
 
-1. Target File - Build Phases - Copy Files
+1. Project - Signing & Capabilities - Target File: 설정 추가
+   - Reource Access - Camera: 활성화
+1. Project - Target File - Build Phases - Copy Files
    - Destination: Resources
    - Subpath: Nothing
    - Copy only when installing 비활성화
+   - 이미지 파일 추가
 
 ```cpp
 #include <iostream>
@@ -126,3 +129,18 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 ```
+
+#### 카메라 권한 설정
+
+참고: [Xcode에서 Mac의 내장 카메라 사용 방법](https://magnae2016.net/2)
+
+1. 새 파일 - Resource - Property List: `Info.plist`
+2. Privacy - Camera Usage Description 추가
+   - Type: String
+   - Value: 카메라 권한을 허용한다
+3. Project - Target File - Identity - Choose Info.plist File
+4. Project - Target File - Build Phases - Copy Files
+   - Destination: Products Directory
+   - Subpath: Nothing
+   - Copy only when installing 비활성화
+   - Info.plist 추가
