@@ -18,9 +18,9 @@ void cameraInVideoOut();
 
 int main(int argc, const char * argv[]) {
     
-    cameraIn();
+//    cameraIn();
     videoIn();
-    cameraInVideoOut();
+//    cameraInVideoOut();
     
     return 0;
 }
@@ -78,10 +78,10 @@ void videoIn() {
         
         if (frame.empty()) break;
         
-        inversed = ~frame;
+//        inversed = ~frame;
         
         imshow("frame", frame);
-        imshow("inversed", inversed);
+//        imshow("inversed", inversed);
         
         if (waitKey(delay) == 27) break;
     }
