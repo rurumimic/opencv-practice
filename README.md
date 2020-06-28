@@ -4,6 +4,16 @@
   - [Documentation](https://docs.opencv.org/master/)
   - [Releases](https://opencv.org/releases/)
 
+---
+
+## 내용
+
+- [밝기](docs/brightness.md)
+- [대비](docs/contrast.md)
+- [히스토그램](docs/histogram.md)
+
+---
+
 ## 설치
 
 - [Introduction to OpenCV](https://docs.opencv.org/master/df/d65/tutorial_table_of_content_introduction.html)
@@ -144,3 +154,12 @@ int main(int argc, const char * argv[]) {
    - Subpath: Nothing
    - Copy only when installing 비활성화
    - Info.plist 추가
+
+---
+
+## 기타
+
+- Equation to Image
+  1. [editor](https://latex.codecogs.com/)
+  2. [editor](https://www.codecogs.com/latex/eqneditor.php)
+  3. [editor](http://www.sciweavers.org/free-online-latex-equation-editor)
