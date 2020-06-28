@@ -11,6 +11,8 @@
 - [밝기](docs/brightness.md)
 - [대비](docs/contrast.md)
 - [히스토그램](docs/histogram.md)
+- [산술 연산](docs/arithmetic.operation.md)
+- [논리 연산](docs/logical.operation.md)
 
 ---
 
@@ -51,7 +53,7 @@ brew upgrade opencv
 
 #### pkg-config
 
-Xcode에서 OpenCV 사용하려면 라이브러리 조회 기능이 필요하다.  
+Xcode에서 OpenCV 사용하려면 라이브러리 조회 기능이 필요하다.
 
 ```bash
 brew install pkg-config
@@ -97,9 +99,9 @@ using namespace std;
 using namespace cv;
 
 int main(int argc, const char * argv[]) {
-    
+
     cout << "OpenCV version: " << CV_VERSION << endl;
-    
+
     return 0;
 }
 ```
@@ -122,20 +124,20 @@ using namespace std;
 using namespace cv;
 
 int main(int argc, const char * argv[]) {
-    
+
     Mat img;
     img = imread("lenna.bmp");
-    
+
     if (img.empty()) {
         cerr << "Image load failed!" << endl;
         return -1;
     }
-    
+
     namedWindow("image");
     imshow("image", img);
-    
+
     waitKey();
-    
+
     return 0;
 }
 ```

@@ -68,7 +68,7 @@ hist = cv.equalizeHist(src, [dst])
 
 선형 변환 기법. 그레이스케일 전 구간으로 변환.
 
-![dist(x, y) = \frac{src(x, y) - G_{min}}{G_{max} - G_{min}} \times 255](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20dist%28x%2C%20y%29%20%3D%20%5Cfrac%7Bsrc%28x%2C%20y%29%20-%20G_%7Bmin%7D%7D%7BG_%7Bmax%7D%20-%20G_%7Bmin%7D%7D%20%5Ctimes%20255)
+![dst(x, y) = \frac{src(x, y) - G_{min}}{G_{max} - G_{min}} \times 255](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20dst%28x%2C%20y%29%20%3D%20%5Cfrac%7Bsrc%28x%2C%20y%29%20-%20G_%7Bmin%7D%7D%7BG_%7Bmax%7D%20-%20G_%7Bmin%7D%7D%20%5Ctimes%20255)
 
 **히스토그램 스트레칭 직선 방정식:**
 
@@ -77,10 +77,10 @@ hist = cv.equalizeHist(src, [dst])
 
 ![
 \begin{align*}
-dist(x, y) &= \frac{255}{G_{max} - G_{min}} \times src(x, y) - \frac{255 \cdot G_{min}}{G_{max} - G_{min}} \\
+dst(x, y) &= \frac{255}{G_{max} - G_{min}} \times src(x, y) - \frac{255 \cdot G_{min}}{G_{max} - G_{min}} \\
 &= \frac{src(x, y) - G_{min}}{G_{max} - G_{min}} \times 255
 \end{align*}
-](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cbegin%7Balign*%7D%20dist%28x%2C%20y%29%20%26%3D%20%5Cfrac%7B255%7D%7BG_%7Bmax%7D%20-%20G_%7Bmin%7D%7D%20%5Ctimes%20src%28x%2C%20y%29%20-%20%5Cfrac%7B255%20%5Ccdot%20G_%7Bmin%7D%7D%7BG_%7Bmax%7D%20-%20G_%7Bmin%7D%7D%20%5C%5C%20%26%3D%20%5Cfrac%7Bsrc%28x%2C%20y%29%20-%20G_%7Bmin%7D%7D%7BG_%7Bmax%7D%20-%20G_%7Bmin%7D%7D%20%5Ctimes%20255%20%5Cend%7Balign*%7D)
+](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Cbegin%7Balign*%7D%20dst%28x%2C%20y%29%20%26%3D%20%5Cfrac%7B255%7D%7BG_%7Bmax%7D%20-%20G_%7Bmin%7D%7D%20%5Ctimes%20src%28x%2C%20y%29%20-%20%5Cfrac%7B255%20%5Ccdot%20G_%7Bmin%7D%7D%7BG_%7Bmax%7D%20-%20G_%7Bmin%7D%7D%20%5C%5C%20%26%3D%20%5Cfrac%7Bsrc%28x%2C%20y%29%20-%20G_%7Bmin%7D%7D%7BG_%7Bmax%7D%20-%20G_%7Bmin%7D%7D%20%5Ctimes%20255%20%5Cend%7Balign*%7D)
 
 **히스토그램 누적 함수:**
 
@@ -95,5 +95,5 @@ dist(x, y) &= \frac{255}{G_{max} - G_{min}} \times src(x, y) - \frac{255 \cdot G
 - N: 픽셀 수
 - L<sub>max</sub>: 최대 밝기 값. 255.
 
-![dist(x, y) = round(H(src(x, y)) \times \frac{L_{max}}{N})](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20dist%28x%2C%20y%29%20%3D%20round%28H%28src%28x%2C%20y%29%29%20%5Ctimes%20%5Cfrac%7BL_%7Bmax%7D%7D%7BN%7D%29)
+![dst(x, y) = round(H(src(x, y)) \times \frac{L_{max}}{N})](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20dst%28x%2C%20y%29%20%3D%20round%28H%28src%28x%2C%20y%29%29%20%5Ctimes%20%5Cfrac%7BL_%7Bmax%7D%7D%7BN%7D%29)
 

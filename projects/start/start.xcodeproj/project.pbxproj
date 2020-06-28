@@ -14,6 +14,11 @@
 		C915B2A424A8A53F00594E29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C915B2A324A8A53F00594E29 /* main.cpp */; };
 		C915B2A924A8A84700594E29 /* lenna.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C915B28D24A82BD200594E29 /* lenna.bmp */; };
 		C915B2AB24A8BCC300594E29 /* hawkes.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C915B2AA24A8BCBC00594E29 /* hawkes.bmp */; };
+		C915B2B324A8BF7800594E29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C915B2B224A8BF7800594E29 /* main.cpp */; };
+		C915B2B924A8C19F00594E29 /* lenna.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C915B28D24A82BD200594E29 /* lenna.bmp */; };
+		C915B2BB24A8C54500594E29 /* night.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = C915B2BA24A8C53B00594E29 /* night.jpg */; };
+		C915B2BD24A8C84600594E29 /* square.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C915B2BC24A8C83F00594E29 /* square.bmp */; };
+		C915B2BF24A8C88C00594E29 /* lenna256.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C915B2BE24A8C88800594E29 /* lenna256.bmp */; };
 		C94727C7249E4E580009B161 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94727C6249E4E580009B161 /* main.cpp */; };
 		C94727D5249E55B30009B161 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94727D4249E55B30009B161 /* main.cpp */; };
 		C94727DB249E59DE0009B161 /* lenna.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C94727DA249E57360009B161 /* lenna.bmp */; };
@@ -54,6 +59,19 @@
 			files = (
 				C915B2AB24A8BCC300594E29 /* hawkes.bmp in CopyFiles */,
 				C915B2A924A8A84700594E29 /* lenna.bmp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C915B2AE24A8BF7800594E29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				C915B2BF24A8C88C00594E29 /* lenna256.bmp in CopyFiles */,
+				C915B2BD24A8C84600594E29 /* square.bmp in CopyFiles */,
+				C915B2BB24A8C54500594E29 /* night.jpg in CopyFiles */,
+				C915B2B924A8C19F00594E29 /* lenna.bmp in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +130,12 @@
 		C915B2A324A8A53F00594E29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C915B2A824A8A83000594E29 /* histogram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = histogram.entitlements; sourceTree = "<group>"; };
 		C915B2AA24A8BCBC00594E29 /* hawkes.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = hawkes.bmp; sourceTree = "<group>"; };
+		C915B2B024A8BF7800594E29 /* operation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = operation; sourceTree = BUILT_PRODUCTS_DIR; };
+		C915B2B224A8BF7800594E29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C915B2B724A8BF8600594E29 /* operation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = operation.entitlements; sourceTree = "<group>"; };
+		C915B2BA24A8C53B00594E29 /* night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = night.jpg; sourceTree = "<group>"; };
+		C915B2BC24A8C83F00594E29 /* square.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = square.bmp; sourceTree = "<group>"; };
+		C915B2BE24A8C88800594E29 /* lenna256.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = lenna256.bmp; sourceTree = "<group>"; };
 		C94727C3249E4E580009B161 /* start */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = start; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94727C6249E4E580009B161 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C94727CD249E52EA0009B161 /* start.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = start.entitlements; sourceTree = "<group>"; };
@@ -147,6 +171,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C915B29E24A8A53F00594E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C915B2AD24A8BF7800594E29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,6 +227,9 @@
 		C915B28C24A82BD200594E29 /* files */ = {
 			isa = PBXGroup;
 			children = (
+				C915B2BE24A8C88800594E29 /* lenna256.bmp */,
+				C915B2BC24A8C83F00594E29 /* square.bmp */,
+				C915B2BA24A8C53B00594E29 /* night.jpg */,
 				C915B2AA24A8BCBC00594E29 /* hawkes.bmp */,
 				C915B28D24A82BD200594E29 /* lenna.bmp */,
 			);
@@ -220,6 +254,15 @@
 			path = histogram;
 			sourceTree = "<group>";
 		};
+		C915B2B124A8BF7800594E29 /* operation */ = {
+			isa = PBXGroup;
+			children = (
+				C915B2B724A8BF8600594E29 /* operation.entitlements */,
+				C915B2B224A8BF7800594E29 /* main.cpp */,
+			);
+			path = operation;
+			sourceTree = "<group>";
+		};
 		C94727BA249E4E580009B161 = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +274,7 @@
 				C915B28624A82BBE00594E29 /* brightness */,
 				C915B29524A8993B00594E29 /* contrast */,
 				C915B2A224A8A53F00594E29 /* histogram */,
+				C915B2B124A8BF7800594E29 /* operation */,
 				C94727C4249E4E580009B161 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -245,6 +289,7 @@
 				C915B28524A82BBE00594E29 /* brightness */,
 				C915B29424A8993B00594E29 /* contrast */,
 				C915B2A124A8A53F00594E29 /* histogram */,
+				C915B2B024A8BF7800594E29 /* operation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,6 +389,23 @@
 			productReference = C915B2A124A8A53F00594E29 /* histogram */;
 			productType = "com.apple.product-type.tool";
 		};
+		C915B2AF24A8BF7800594E29 /* operation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C915B2B424A8BF7800594E29 /* Build configuration list for PBXNativeTarget "operation" */;
+			buildPhases = (
+				C915B2AC24A8BF7800594E29 /* Sources */,
+				C915B2AD24A8BF7800594E29 /* Frameworks */,
+				C915B2AE24A8BF7800594E29 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = operation;
+			productName = operation;
+			productReference = C915B2B024A8BF7800594E29 /* operation */;
+			productType = "com.apple.product-type.tool";
+		};
 		C94727C2249E4E580009B161 /* start */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C94727CA249E4E580009B161 /* Build configuration list for PBXNativeTarget "start" */;
@@ -430,6 +492,9 @@
 					C915B2A024A8A53F00594E29 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					C915B2AF24A8BF7800594E29 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					C94727C2249E4E580009B161 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -464,6 +529,7 @@
 				C915B28424A82BBE00594E29 /* brightness */,
 				C915B29324A8993B00594E29 /* contrast */,
 				C915B2A024A8A53F00594E29 /* histogram */,
+				C915B2AF24A8BF7800594E29 /* operation */,
 			);
 		};
 /* End PBXProject section */
@@ -490,6 +556,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C915B2A424A8A53F00594E29 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C915B2AC24A8BF7800594E29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C915B2B324A8BF7800594E29 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +664,28 @@
 				CODE_SIGN_ENTITLEMENTS = histogram/histogram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = files/lenna.bmp;
+				DEVELOPMENT_TEAM = 65J2F745DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C915B2B524A8BF7800594E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = operation/operation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65J2F745DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C915B2B624A8BF7800594E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = operation/operation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65J2F745DV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1293,6 +1389,15 @@
 			buildConfigurations = (
 				C915B2A624A8A53F00594E29 /* Debug */,
 				C915B2A724A8A53F00594E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C915B2B424A8BF7800594E29 /* Build configuration list for PBXNativeTarget "operation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C915B2B524A8BF7800594E29 /* Debug */,
+				C915B2B624A8BF7800594E29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
