@@ -75,4 +75,6 @@ dst = cv.bitwise_not(src1[, dst[, mask]])
 
 ## 예
 
+AND. OR. XOR. NOT.
+
 ![](images/operation.3.png)
