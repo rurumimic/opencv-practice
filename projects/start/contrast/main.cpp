@@ -17,14 +17,14 @@ void on_contrast(int pos, void* userdata) {
     float alpha = 0.05f * pos - 0.999f; // alpha > -1
     
     Mat src = *(Mat*)userdata;
-    Mat dist = src + (src - 128) * alpha;
+    Mat dst = src + (src - 128) * alpha;
     
-    imshow("dist", dist);
+    imshow("dst", dst);
 }
 
-void display(Mat src, Mat dist) {
+void display(Mat src, Mat dst) {
     imshow("src", src);
-    imshow("dist", dist);
+    imshow("dst", dst);
     waitKey();
     
     destroyAllWindows();
@@ -32,20 +32,20 @@ void display(Mat src, Mat dist) {
 
 void contrast1(Mat src) {
     float s = 2.f;
-    Mat dist = s * src;
+    Mat dst = s * src;
     
-    display(src, dist);
+    display(src, dst);
 }
 
 void contrast2(Mat src) {
     float alpha = 1.f;
-    Mat dist = src + (src - 128) * alpha;
+    Mat dst = src + (src - 128) * alpha;
     
-    display(src, dist);
+    display(src, dst);
 }
 
 void contrast3(Mat src) {
-    Mat dist(src.rows, src.cols, src.type());
+    Mat dst(src.rows, src.cols, src.type());
     
     float alpha = 1.f;
     float average = mean(src)[0]; // 밝기 평균: [124.049, 0, 0, 0]
@@ -53,21 +53,21 @@ void contrast3(Mat src) {
     for (int j = 0; j < src.rows; j++) {
         for (int i = 0; i < src.cols; i++) {
             int v = src.at<uchar>(j, i) + (src.at<uchar>(j, i) - average) * alpha; // 명암 조절
-            dist.at<uchar>(j, i) = saturate_cast<uchar>(v); // 포화 연산
+            dst.at<uchar>(j, i) = saturate_cast<uchar>(v); // 포화 연산
         }
     }
 
-    display(src, dist);
+    display(src, dst);
 }
 
 void contrast4(Mat src) {
-    namedWindow("dist"); // 창 생성
+    namedWindow("dst"); // 창 생성
 
     // 트랙바 이름, 생성 창 이름
     // 트랙바 위치를 받을 정수형 변수의 주소, 트랙바 최대 위치
     // 콜백 함수, 콜백 함수 파라미터
     // 반환: 정상 1, 실패 0
-    createTrackbar("Contrast", "dist", 0, 100, on_contrast, (void*)&src);
+    createTrackbar("Contrast", "dst", 0, 100, on_contrast, (void*)&src);
 
     // 창 실행
     on_contrast(0, (void*)&src);
