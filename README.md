@@ -8,11 +8,21 @@
 
 ## 내용
 
-- [밝기](docs/brightness.md)
-- [대비](docs/contrast.md)
-- [히스토그램](docs/histogram.md)
-- [산술 연산](docs/arithmetic.operation.md)
-- [논리 연산](docs/logical.operation.md)
+- 5
+  - [밝기](docs/brightness.md)
+  - [대비](docs/contrast.md)
+  - [히스토그램](docs/histogram.md)
+- 6
+  - [산술 연산](docs/arithmetic.operation.md)
+  - [논리 연산](docs/logical.operation.md)
+- 7
+  - [필터링](docs/filtering.md)
+  - 블러링
+  - 샤프닝
+  - 잡음 제거 필터링
+- 8
+  - 어파인 변환
+  - 투시 변환
 
 ---
 
