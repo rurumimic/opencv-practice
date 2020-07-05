@@ -41,13 +41,13 @@ g(x, y) &= m(0, 0)f(x-1, y-1) + m(1, 0)f(x, y-1) +  m(2, 0)f(x+1, y-1) \\
 c++:
 
 ```cpp
-void filter2D(InputArray src, 
-              OutputArray dst, 
-              int ddepth, 
-              InputArray kernel, 
-              Point anchor = Point(-1, -1), 
-              double delta = 0, 
-              int borderType = BORDER_DEFAULT);
+void cv::filter2D(InputArray src, 
+                  OutputArray dst, 
+                  int ddepth, 
+                  InputArray kernel, 
+                  Point anchor = Point(-1, -1), 
+                  double delta = 0, 
+                  int borderType = BORDER_DEFAULT);
 ```
 
 python:

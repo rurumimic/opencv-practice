@@ -17,7 +17,7 @@
   - [논리 연산](docs/logical.operation.md)
 - 7
   - [필터링](docs/filtering.md)
-  - 블러링
+  - [블러링](docs/blurring.md)
   - 샤프닝
   - 잡음 제거 필터링
 - 8
