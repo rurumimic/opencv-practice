@@ -18,8 +18,8 @@
 - 7
   - [필터링](docs/filtering.md)
   - [블러링](docs/blurring.md)
-  - 샤프닝
-  - 잡음 제거 필터링
+  - [샤프닝](docs/sharpening.md)
+  - [잡음 제거 필터링](docs/noise.filtering.md)
 - 8
   - 어파인 변환
   - 투시 변환

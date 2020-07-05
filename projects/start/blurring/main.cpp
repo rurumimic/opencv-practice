@@ -62,6 +62,86 @@ void blur2(Mat src) {
     destroyAllWindows();
 }
 
+void sharp(Mat src) {
+    imshow("src", src);
+
+    Mat sharp1, sharp3, sharp5;
+    Mat blur1, blur3, blur5;
+    int sigma1 = 1;
+    int sigma3 = 3;
+    int sigma5 = 5;
+    float alpha = 1.f;
+    
+    GaussianBlur(src, blur1, Size(), (double)sigma1);
+    sharp1 = (1 + alpha) * src - alpha * blur1;
+    String desc1 = format("sigma: %d", sigma1);
+    putText(sharp1, desc1, Point(10, 30), FONT_HERSHEY_SIMPLEX, 1.0, Scalar(255), 1, LINE_AA);
+    imshow("sharp 1", sharp1);
+    
+    GaussianBlur(src, blur3, Size(), (double)sigma3);
+    sharp3 = (1 + alpha) * src - alpha * blur3;
+    String desc3 = format("sigma: %d", sigma3);
+    putText(sharp3, desc3, Point(10, 30), FONT_HERSHEY_SIMPLEX, 1.0, Scalar(255), 1, LINE_AA);
+    imshow("sharp 3", sharp3);
+    
+    GaussianBlur(src, blur5, Size(), (double)sigma5);
+    sharp5 = (1 + alpha) * src - alpha * blur5;
+    String desc5 = format("sigma: %d", sigma5);
+    putText(sharp5, desc5, Point(10, 30), FONT_HERSHEY_SIMPLEX, 1.0, Scalar(255), 1, LINE_AA);
+    imshow("sharp 5", sharp5);
+    
+    waitKey(0);
+    destroyAllWindows();
+}
+
+void noisy(Mat src) {
+    imshow("src", src);
+    
+    int stddev = 30;
+    Mat noise(src.size(), CV_32SC1);
+    randn(noise, 0, stddev);
+    
+    Mat dst;
+    add(src, noise, dst, Mat(), CV_8U);
+    
+    String desc = format("stddev: %d", stddev);
+    putText(dst, desc, Point(10, 30), FONT_HERSHEY_SIMPLEX, 1.0, Scalar(255), 1, LINE_AA);
+    imshow("noise", dst);
+    
+    waitKey(0);
+    destroyAllWindows();
+}
+
+void bilateral(Mat src) {
+    Mat noise(src.size(), CV_32SC1);
+    randn(noise, 0, 5);
+    add(src, noise, src, Mat(), CV_8U);
+    
+    Mat dst;
+    bilateralFilter(src, dst, -1, 10, 5);
+    
+    imshow("src", src);
+    imshow("dst", dst);
+    waitKey();
+    destroyAllWindows();
+}
+
+void median(Mat src) {
+    int num = (int)(src.total() * 0.1);
+    for (int i = 0; i < num; i++) {
+        int x = rand() % src.cols;
+        int y = rand() % src.rows;
+        src.at<uchar>(y, x) = (i % 2) * 255;
+    }
+    
+    Mat dst;
+    medianBlur(src, dst, 3);
+    
+    imshow("src", src);
+    imshow("dst", dst);
+    waitKey();
+    destroyAllWindows();
+}
 
 int main(int argc, const char * argv[]) {
     
@@ -73,7 +153,11 @@ int main(int argc, const char * argv[]) {
     }
     
 //    blur1(src);
-    blur2(src);
+//    blur2(src);
+//    sharp(src);
+//    noisy(src);
+    bilateral(src);
+//    median(src);
     
     return 0;
 }
