@@ -71,14 +71,22 @@ void backprojection() {
     
     // 피부색 영역을 CrCb 2차원 히스토그램으로 표현
     Mat hist;
-    int channels[] = { 1, 2 };
+    int channels[] = { 1, 2 }; // 히스토그램을 구할 채널을 나타내는 정수형 배열. Cr Cb
     int cr_bins = 128;
     int cb_bins = 128;
-    int histSize[] = { cr_bins, cb_bins };
+    int histSize[] = { cr_bins, cb_bins }; // 각 차원의 히스토그램 배열 크기를 나타내는 배열. 각 차원의 히스토그램 bin 개수를 나타내는 배열
     float cr_range[] = { 0, 256 };
     float cb_range[] = { 0, 256 };
-    const float* ranges[] = { cr_range, cb_range };
-    calcHist(&ref_ycrcb, 1, channels, mask, hist, 2, histSize, ranges);
+    const float* ranges[] = { cr_range, cb_range }; // 각 차원의 히스토그램 범위
+    
+    calcHist(&ref_ycrcb, // images: 입력 영상의 배열
+             1,          // nimages: 입력 영상 개수 1개
+             channels,   // channels: 히스토그램을 구할 채널을 나타내는 정수형 배열. Cr Cb
+             mask,       // mask: 마스크 영상
+             hist,       // hist: 출력 히스토그램
+             2,          // dims 2: 출력 히스토그램 차원 수
+             histSize,   // 각 차원의 히스토그램 bin 개수를 나타내는 배열
+             ranges);    // 각 차원의 히스토그램 범위
     
     // 입력 영상 YCrCb 색공간
     Mat src, src_ycrcb;
@@ -87,8 +95,15 @@ void backprojection() {
     
     // 히스토그램 역투영 결과 저장
     Mat backproj;
-    calcBackProject(&src_ycrcb, 1, channels, hist, backproj, ranges, 1, true);
-    
+    calcBackProject(&src_ycrcb, // images: 입력 영상의 배열 또는 입력 영상의 주소
+                    1,          // nimages: 입력 영상 개수
+                    channels,   // channels: 역투영 계산 시 사용할 채널 번호 배열
+                    hist,       // hist: 입력 히스토그램
+                    backproj,   // backProject: 출력 히스토그램 역투영 영상. 1채널 영상
+                    ranges,     // ranges: 각 차원의 히스토그램 빈 범위를 나타내는 배열의 배열
+                    1,          // scale: 히스토그램 역투영 값에 추가적으로 곱할 값
+                    true);      // uniform: 히스토그램 빈의 간격이 균등한지를 나타내는 플래그
+
     imshow("src", src);
     imshow("backproj", backproj);
     
