@@ -27,6 +27,13 @@
 		C964EBF524BAD39D00FBE442 /* lenna.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C915B28D24A82BD200594E29 /* lenna.bmp */; };
 		C964EBF824BAE35100FBE442 /* building.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = C964EBF724BAE34800FBE442 /* building.jpg */; };
 		C964EBFA24BAE7FF00FBE442 /* coins.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C964EBF924BAE7F900FBE442 /* coins.png */; };
+		C964EC0224BB1E5900FBE442 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C964EC0124BB1E5900FBE442 /* main.cpp */; };
+		C964EC0724BB1E7400FBE442 /* lenna.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C915B28D24A82BD200594E29 /* lenna.bmp */; };
+		C964EC0F24BB2E9400FBE442 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C964EC0E24BB2E9400FBE442 /* main.cpp */; };
+		C964EC1324BB2EAA00FBE442 /* lenna.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C915B28D24A82BD200594E29 /* lenna.bmp */; };
+		C964EC1A24BB38CC00FBE442 /* kids.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C964EC1824BB38C400FBE442 /* kids.png */; };
+		C964EC1B24BB38CC00FBE442 /* mask.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C964EC1924BB38C400FBE442 /* mask.bmp */; };
+		C964EC1C24BB38CC00FBE442 /* ref.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C964EC1724BB38C400FBE442 /* ref.png */; };
 		C9676224249EEE0000583F8A /* Info.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9676223249EECFB00583F8A /* Info.plist */; };
 		C9676226249EF3DF00583F8A /* cafe.mov in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9676225249EF3D800583F8A /* cafe.mov */; };
 		C96E81A924B190E60066A657 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96E81A824B190E60066A657 /* main.cpp */; };
@@ -129,6 +136,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C964EBFD24BB1E5900FBE442 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				C964EC0724BB1E7400FBE442 /* lenna.bmp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C964EC0A24BB2E9400FBE442 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				C964EC1A24BB38CC00FBE442 /* kids.png in CopyFiles */,
+				C964EC1B24BB38CC00FBE442 /* mask.bmp in CopyFiles */,
+				C964EC1C24BB38CC00FBE442 /* ref.png in CopyFiles */,
+				C964EC1324BB2EAA00FBE442 /* lenna.bmp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C96E81A424B190E60066A657 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
@@ -215,6 +245,16 @@
 		C964EBF624BAD3A100FBE442 /* edge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = edge.entitlements; sourceTree = "<group>"; };
 		C964EBF724BAE34800FBE442 /* building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building.jpg; sourceTree = "<group>"; };
 		C964EBF924BAE7F900FBE442 /* coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coins.png; sourceTree = "<group>"; };
+		C964EBFF24BB1E5900FBE442 /* color */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = color; sourceTree = BUILT_PRODUCTS_DIR; };
+		C964EC0124BB1E5900FBE442 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C964EC0624BB1E6200FBE442 /* color.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = color.entitlements; sourceTree = "<group>"; };
+		C964EC0C24BB2E9400FBE442 /* color-process */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "color-process"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C964EC0E24BB2E9400FBE442 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C964EC1424BB2EB200FBE442 /* color-process.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "color-process.entitlements"; sourceTree = "<group>"; };
+		C964EC1524BB37DF00FBE442 /* children.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = children.jpg; sourceTree = "<group>"; };
+		C964EC1724BB38C400FBE442 /* ref.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ref.png; sourceTree = "<group>"; };
+		C964EC1824BB38C400FBE442 /* kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kids.png; sourceTree = "<group>"; };
+		C964EC1924BB38C400FBE442 /* mask.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = mask.bmp; sourceTree = "<group>"; };
 		C9676223249EECFB00583F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9676225249EF3D800583F8A /* cafe.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = cafe.mov; sourceTree = "<group>"; };
 		C96E81A624B190E60066A657 /* filtering */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = filtering; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -294,6 +334,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C964EBFC24BB1E5900FBE442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C964EC0924BB2E9400FBE442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C96E81A324B190E60066A657 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,8 +404,12 @@
 				C915B2BE24A8C88800594E29 /* lenna256.bmp */,
 				C915B2BC24A8C83F00594E29 /* square.bmp */,
 				C915B2BA24A8C53B00594E29 /* night.jpg */,
+				C964EC1524BB37DF00FBE442 /* children.jpg */,
 				C915B2AA24A8BCBC00594E29 /* hawkes.bmp */,
 				C915B28D24A82BD200594E29 /* lenna.bmp */,
+				C964EC1824BB38C400FBE442 /* kids.png */,
+				C964EC1924BB38C400FBE442 /* mask.bmp */,
+				C964EC1724BB38C400FBE442 /* ref.png */,
 			);
 			path = files;
 			sourceTree = "<group>";
@@ -400,6 +458,8 @@
 				C96E81C124B212250066A657 /* affine */,
 				C96E81CE24B215800066A657 /* perspective */,
 				C964EBEF24BAD38B00FBE442 /* edge */,
+				C964EC0024BB1E5900FBE442 /* color */,
+				C964EC0D24BB2E9400FBE442 /* color-process */,
 				C94727C4249E4E580009B161 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -420,6 +480,8 @@
 				C96E81C024B212250066A657 /* affine */,
 				C96E81CD24B215800066A657 /* perspective */,
 				C964EBEE24BAD38B00FBE442 /* edge */,
+				C964EBFF24BB1E5900FBE442 /* color */,
+				C964EC0C24BB2E9400FBE442 /* color-process */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -461,6 +523,24 @@
 				C964EBF024BAD38B00FBE442 /* main.cpp */,
 			);
 			path = edge;
+			sourceTree = "<group>";
+		};
+		C964EC0024BB1E5900FBE442 /* color */ = {
+			isa = PBXGroup;
+			children = (
+				C964EC0624BB1E6200FBE442 /* color.entitlements */,
+				C964EC0124BB1E5900FBE442 /* main.cpp */,
+			);
+			path = color;
+			sourceTree = "<group>";
+		};
+		C964EC0D24BB2E9400FBE442 /* color-process */ = {
+			isa = PBXGroup;
+			children = (
+				C964EC1424BB2EB200FBE442 /* color-process.entitlements */,
+				C964EC0E24BB2E9400FBE442 /* main.cpp */,
+			);
+			path = "color-process";
 			sourceTree = "<group>";
 		};
 		C96E81A724B190E60066A657 /* filtering */ = {
@@ -649,6 +729,40 @@
 			productReference = C964EBEE24BAD38B00FBE442 /* edge */;
 			productType = "com.apple.product-type.tool";
 		};
+		C964EBFE24BB1E5900FBE442 /* color */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C964EC0324BB1E5900FBE442 /* Build configuration list for PBXNativeTarget "color" */;
+			buildPhases = (
+				C964EBFB24BB1E5900FBE442 /* Sources */,
+				C964EBFC24BB1E5900FBE442 /* Frameworks */,
+				C964EBFD24BB1E5900FBE442 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = color;
+			productName = color;
+			productReference = C964EBFF24BB1E5900FBE442 /* color */;
+			productType = "com.apple.product-type.tool";
+		};
+		C964EC0B24BB2E9400FBE442 /* color-process */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C964EC1024BB2E9400FBE442 /* Build configuration list for PBXNativeTarget "color-process" */;
+			buildPhases = (
+				C964EC0824BB2E9400FBE442 /* Sources */,
+				C964EC0924BB2E9400FBE442 /* Frameworks */,
+				C964EC0A24BB2E9400FBE442 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "color-process";
+			productName = "color-process";
+			productReference = C964EC0C24BB2E9400FBE442 /* color-process */;
+			productType = "com.apple.product-type.tool";
+		};
 		C96E81A524B190E60066A657 /* filtering */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C96E81AC24B190E60066A657 /* Build configuration list for PBXNativeTarget "filtering" */;
@@ -767,6 +881,12 @@
 					C964EBED24BAD38B00FBE442 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					C964EBFE24BB1E5900FBE442 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C964EC0B24BB2E9400FBE442 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					C96E81A524B190E60066A657 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -810,6 +930,8 @@
 				C96E81BF24B212250066A657 /* affine */,
 				C96E81CC24B215800066A657 /* perspective */,
 				C964EBED24BAD38B00FBE442 /* edge */,
+				C964EBFE24BB1E5900FBE442 /* color */,
+				C964EC0B24BB2E9400FBE442 /* color-process */,
 			);
 		};
 /* End PBXProject section */
@@ -876,6 +998,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C964EBF124BAD38B00FBE442 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C964EBFB24BB1E5900FBE442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C964EC0224BB1E5900FBE442 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C964EC0824BB2E9400FBE442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C964EC0F24BB2E9400FBE442 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1683,6 +1821,50 @@
 			};
 			name = Release;
 		};
+		C964EC0424BB1E5900FBE442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = color/color.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65J2F745DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C964EC0524BB1E5900FBE442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = color/color.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65J2F745DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C964EC1124BB2E9400FBE442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "color-process/color-process.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65J2F745DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C964EC1224BB2E9400FBE442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "color-process/color-process.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65J2F745DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C96E81AA24B190E60066A657 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1873,6 +2055,24 @@
 			buildConfigurations = (
 				C964EBF224BAD38B00FBE442 /* Debug */,
 				C964EBF324BAD38B00FBE442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C964EC0324BB1E5900FBE442 /* Build configuration list for PBXNativeTarget "color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C964EC0424BB1E5900FBE442 /* Debug */,
+				C964EC0524BB1E5900FBE442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C964EC1024BB2E9400FBE442 /* Build configuration list for PBXNativeTarget "color-process" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C964EC1124BB2E9400FBE442 /* Debug */,
+				C964EC1224BB2E9400FBE442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

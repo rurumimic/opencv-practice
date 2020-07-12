@@ -27,8 +27,8 @@
   - [에지 검출](docs/edge.md)
   - [직선, 원 검출](docs/line.md)
 - 10
-  - 컬러 영상 다루기
-  - 컬러 영상 처리 기법
+  - [컬러 영상 다루기](docs/color.md)
+  - [컬러 영상 처리 기법](docs/color.process.md)
 
 ---
 
