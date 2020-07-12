@@ -23,6 +23,10 @@
 		C94727D5249E55B30009B161 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94727D4249E55B30009B161 /* main.cpp */; };
 		C94727DB249E59DE0009B161 /* lenna.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C94727DA249E57360009B161 /* lenna.bmp */; };
 		C9472810249EE9680009B161 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C947280F249EE9680009B161 /* main.cpp */; };
+		C964EBF124BAD38B00FBE442 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C964EBF024BAD38B00FBE442 /* main.cpp */; };
+		C964EBF524BAD39D00FBE442 /* lenna.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C915B28D24A82BD200594E29 /* lenna.bmp */; };
+		C964EBF824BAE35100FBE442 /* building.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = C964EBF724BAE34800FBE442 /* building.jpg */; };
+		C964EBFA24BAE7FF00FBE442 /* coins.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C964EBF924BAE7F900FBE442 /* coins.png */; };
 		C9676224249EEE0000583F8A /* Info.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9676223249EECFB00583F8A /* Info.plist */; };
 		C9676226249EF3DF00583F8A /* cafe.mov in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9676225249EF3D800583F8A /* cafe.mov */; };
 		C96E81A924B190E60066A657 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96E81A824B190E60066A657 /* main.cpp */; };
@@ -113,6 +117,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C964EBEC24BAD38B00FBE442 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				C964EBFA24BAE7FF00FBE442 /* coins.png in CopyFiles */,
+				C964EBF824BAE35100FBE442 /* building.jpg in CopyFiles */,
+				C964EBF524BAD39D00FBE442 /* lenna.bmp in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C96E81A424B190E60066A657 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
@@ -194,6 +210,11 @@
 		C947280D249EE9680009B161 /* video */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = video; sourceTree = BUILT_PRODUCTS_DIR; };
 		C947280F249EE9680009B161 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = video/main.cpp; sourceTree = SOURCE_ROOT; };
 		C9472814249EE9E80009B161 /* video.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = video.entitlements; sourceTree = "<group>"; };
+		C964EBEE24BAD38B00FBE442 /* edge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = edge; sourceTree = BUILT_PRODUCTS_DIR; };
+		C964EBF024BAD38B00FBE442 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C964EBF624BAD3A100FBE442 /* edge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = edge.entitlements; sourceTree = "<group>"; };
+		C964EBF724BAE34800FBE442 /* building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = building.jpg; sourceTree = "<group>"; };
+		C964EBF924BAE7F900FBE442 /* coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coins.png; sourceTree = "<group>"; };
 		C9676223249EECFB00583F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9676225249EF3D800583F8A /* cafe.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = cafe.mov; sourceTree = "<group>"; };
 		C96E81A624B190E60066A657 /* filtering */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = filtering; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -266,6 +287,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C964EBEB24BAD38B00FBE442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C96E81A324B190E60066A657 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,6 +344,8 @@
 		C915B28C24A82BD200594E29 /* files */ = {
 			isa = PBXGroup;
 			children = (
+				C964EBF924BAE7F900FBE442 /* coins.png */,
+				C964EBF724BAE34800FBE442 /* building.jpg */,
 				C96E81D624B215F20066A657 /* card.bmp */,
 				C915B2BE24A8C88800594E29 /* lenna256.bmp */,
 				C915B2BC24A8C83F00594E29 /* square.bmp */,
@@ -369,6 +399,7 @@
 				C96E81B424B1B4740066A657 /* blurring */,
 				C96E81C124B212250066A657 /* affine */,
 				C96E81CE24B215800066A657 /* perspective */,
+				C964EBEF24BAD38B00FBE442 /* edge */,
 				C94727C4249E4E580009B161 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -388,6 +419,7 @@
 				C96E81B324B1B4740066A657 /* blurring */,
 				C96E81C024B212250066A657 /* affine */,
 				C96E81CD24B215800066A657 /* perspective */,
+				C964EBEE24BAD38B00FBE442 /* edge */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -420,6 +452,15 @@
 				C9676223249EECFB00583F8A /* Info.plist */,
 			);
 			path = video;
+			sourceTree = "<group>";
+		};
+		C964EBEF24BAD38B00FBE442 /* edge */ = {
+			isa = PBXGroup;
+			children = (
+				C964EBF624BAD3A100FBE442 /* edge.entitlements */,
+				C964EBF024BAD38B00FBE442 /* main.cpp */,
+			);
+			path = edge;
 			sourceTree = "<group>";
 		};
 		C96E81A724B190E60066A657 /* filtering */ = {
@@ -591,6 +632,23 @@
 			productReference = C947280D249EE9680009B161 /* video */;
 			productType = "com.apple.product-type.tool";
 		};
+		C964EBED24BAD38B00FBE442 /* edge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C964EBF424BAD38B00FBE442 /* Build configuration list for PBXNativeTarget "edge" */;
+			buildPhases = (
+				C964EBEA24BAD38B00FBE442 /* Sources */,
+				C964EBEB24BAD38B00FBE442 /* Frameworks */,
+				C964EBEC24BAD38B00FBE442 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = edge;
+			productName = edge;
+			productReference = C964EBEE24BAD38B00FBE442 /* edge */;
+			productType = "com.apple.product-type.tool";
+		};
 		C96E81A524B190E60066A657 /* filtering */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C96E81AC24B190E60066A657 /* Build configuration list for PBXNativeTarget "filtering" */;
@@ -706,6 +764,9 @@
 					C947280C249EE9680009B161 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					C964EBED24BAD38B00FBE442 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					C96E81A524B190E60066A657 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -748,6 +809,7 @@
 				C96E81B224B1B4740066A657 /* blurring */,
 				C96E81BF24B212250066A657 /* affine */,
 				C96E81CC24B215800066A657 /* perspective */,
+				C964EBED24BAD38B00FBE442 /* edge */,
 			);
 		};
 /* End PBXProject section */
@@ -806,6 +868,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9472810249EE9680009B161 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C964EBEA24BAD38B00FBE442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C964EBF124BAD38B00FBE442 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1591,6 +1661,28 @@
 			};
 			name = Release;
 		};
+		C964EBF224BAD38B00FBE442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = edge/edge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65J2F745DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C964EBF324BAD38B00FBE442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = edge/edge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65J2F745DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C96E81AA24B190E60066A657 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1772,6 +1864,15 @@
 			buildConfigurations = (
 				C9472812249EE9680009B161 /* Debug */,
 				C9472813249EE9680009B161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C964EBF424BAD38B00FBE442 /* Build configuration list for PBXNativeTarget "edge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C964EBF224BAD38B00FBE442 /* Debug */,
+				C964EBF324BAD38B00FBE442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
