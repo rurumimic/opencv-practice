@@ -29,6 +29,12 @@
 - 10
   - [컬러 영상 다루기](docs/color.md)
   - [컬러 영상 처리 기법](docs/color.process.md)
+- 11
+  - [영상의 이진화](docs/binarization.md)
+  - [모폴로지 연산](docs/morphology.md)
+- 12
+  - [레이블링](docs/labeling.md)
+  - [외곽선 검출](docs/contour.md)
 
 ---
 
@@ -178,6 +184,6 @@ int main(int argc, const char * argv[]) {
 ## 기타
 
 - Equation to Image
-  1. [editor](https://latex.codecogs.com/)
-  2. [editor](https://www.codecogs.com/latex/eqneditor.php)
+  1. [editor](https://www.codecogs.com/latex/eqneditor.php)
+  2. [editor](https://latex.codecogs.com/)
   3. [editor](http://www.sciweavers.org/free-online-latex-equation-editor)
