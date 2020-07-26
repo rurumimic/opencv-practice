@@ -41,10 +41,10 @@
   - [HOG 알고리즘과 보행자 검출](docs/hog.md)
   - [QR 코드 검출](docs/qr.md)
 - 14
-  - 코너 검출
-  - 크기 불변 특징점 검출
-  - 특징점 매칭
-  - 영상 이어 붙이기
+  - [코너 검출](docs/corner.md)
+  - [크기 불변 특징점 검출](docs/sift.md)
+  - [특징점 매칭](docs/matching.md)
+  - [영상 이어 붙이기](docs/stitching.md)
 - 15
   - 머신러닝
   - k 최근접 이웃
