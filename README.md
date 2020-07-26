@@ -35,6 +35,24 @@
 - 12
   - [레이블링](docs/labeling.md)
   - [외곽선 검출](docs/contour.md)
+- 13
+  - [템플릿 매칭](docs/images/template.match.png)
+  - [캐스케이드 분류기와 얼굴 검출](docs/cascade.classifier.md)
+  - [HOG 알고리즘과 보행자 검출](docs/hog.md)
+  - [QR 코드 검출](docs/qr.md)
+- 14
+  - 코너 검출
+  - 크기 불변 특징점 검출과 기술
+  - 특짐정 매칭
+  - 영상 이어 붙이기
+- 15
+  - 머신러닝
+  - k 최근접 이웃
+  - 서포트 벡터 머신
+- 16
+  - 딥러닝 개념
+  - 기본
+  - 활용
 
 ---
 
