@@ -36,7 +36,7 @@
   - [레이블링](docs/labeling.md)
   - [외곽선 검출](docs/contour.md)
 - 13
-  - [템플릿 매칭](docs/images/template.match.png)
+  - [템플릿 매칭](docs/template.matching.md)
   - [캐스케이드 분류기와 얼굴 검출](docs/cascade.classifier.md)
   - [HOG 알고리즘과 보행자 검출](docs/hog.md)
   - [QR 코드 검출](docs/qr.md)
