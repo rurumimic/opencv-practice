@@ -46,9 +46,9 @@
   - [특징점 매칭](docs/matching.md)
   - [영상 이어 붙이기](docs/stitching.md)
 - 15
-  - 머신러닝
-  - k 최근접 이웃
-  - 서포트 벡터 머신
+  - [머신러닝](docs/machine.learning.md)
+  - [k 최근접 이웃](docs/k.nearest.md)
+  - [서포트 벡터 머신](docs/svm.md)
 - 16
   - 딥러닝 개념
   - 기본
