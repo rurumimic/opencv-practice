@@ -50,9 +50,8 @@
   - [k 최근접 이웃](docs/k.nearest.md)
   - [서포트 벡터 머신](docs/svm.md)
 - 16
-  - 딥러닝 개념
-  - 기본
-  - 활용
+  - [기본](docs/deep.md)
+  - [활용](docs/deep.2.md)
 
 ---
 
@@ -196,6 +195,36 @@ int main(int argc, const char * argv[]) {
    - Subpath: Nothing
    - Copy only when installing 비활성화
    - Info.plist 추가
+
+---
+
+## Python
+
+### 환경설정
+
+```bash
+source .bash_profile
+conda create -n opencv python=3.7
+conda activate opencv
+```
+
+가상환경 비활성화:
+
+```bash
+conda deactivate
+```
+
+환경 삭제:
+
+```bash
+conda env remove -n opencv
+```
+
+### 패키지 설치
+
+```bash
+conda install -c conda-forge tensorflow
+```
 
 ---
 

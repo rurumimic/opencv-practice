@@ -23,6 +23,22 @@
 		C94727D5249E55B30009B161 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94727D4249E55B30009B161 /* main.cpp */; };
 		C94727DB249E59DE0009B161 /* lenna.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C94727DA249E57360009B161 /* lenna.bmp */; };
 		C9472810249EE9680009B161 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C947280F249EE9680009B161 /* main.cpp */; };
+		C95B989124D6498200A875A7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95B989024D6498200A875A7 /* main.cpp */; };
+		C95B989524D6499500A875A7 /* digits.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9EF0F1B24D5A7080046BAC5 /* digits.png */; };
+		C95B989624D6499500A875A7 /* mnist_cnn.pb in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B988924D6496E00A875A7 /* mnist_cnn.pb */; };
+		C95B989B24D64C4800A875A7 /* bvlc_googlenet.caffemodel in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B989824D64C3B00A875A7 /* bvlc_googlenet.caffemodel */; };
+		C95B989C24D64C4800A875A7 /* classification_classes_ILSVRC2012.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B989924D64C3B00A875A7 /* classification_classes_ILSVRC2012.txt */; };
+		C95B989D24D64C4800A875A7 /* deploy.prototxt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B989A24D64C3B00A875A7 /* deploy.prototxt */; };
+		C95B98A324D64C9A00A875A7 /* beagle.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B989E24D64C9100A875A7 /* beagle.jpg */; };
+		C95B98A424D64C9A00A875A7 /* cup.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B989F24D64C9100A875A7 /* cup.jpg */; };
+		C95B98A524D64C9A00A875A7 /* pineapple.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B98A124D64C9200A875A7 /* pineapple.jpg */; };
+		C95B98A624D64C9A00A875A7 /* scooter.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B98A224D64C9200A875A7 /* scooter.jpg */; };
+		C95B98A724D64C9A00A875A7 /* space_shuttle.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B98A024D64C9200A875A7 /* space_shuttle.jpg */; };
+		C95B98AC24D64FED00A875A7 /* deploy.2.prototxt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B98A924D64FE800A875A7 /* deploy.2.prototxt */; };
+		C95B98AD24D64FED00A875A7 /* opencv_face_detector_uint8.pb in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B98A824D64FE800A875A7 /* opencv_face_detector_uint8.pb */; };
+		C95B98AE24D64FED00A875A7 /* opencv_face_detector.pbtxt in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B98AB24D64FE800A875A7 /* opencv_face_detector.pbtxt */; };
+		C95B98AF24D64FED00A875A7 /* res10_300x300_ssd_iter_140000_fp16.caffemodel in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B98AA24D64FE800A875A7 /* res10_300x300_ssd_iter_140000_fp16.caffemodel */; };
+		C95B98B124D650B500A875A7 /* Info.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = C95B98B024D6507300A875A7 /* Info.plist */; };
 		C964EBF124BAD38B00FBE442 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C964EBF024BAD38B00FBE442 /* main.cpp */; };
 		C964EBF524BAD39D00FBE442 /* lenna.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = C915B28D24A82BD200594E29 /* lenna.bmp */; };
 		C964EBF824BAE35100FBE442 /* building.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = C964EBF724BAE34800FBE442 /* building.jpg */; };
@@ -148,6 +164,30 @@
 			files = (
 				C9676226249EF3DF00583F8A /* cafe.mov in CopyFiles */,
 				C9676224249EEE0000583F8A /* Info.plist in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95B988C24D6498200A875A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				C95B98B124D650B500A875A7 /* Info.plist in CopyFiles */,
+				C95B98AC24D64FED00A875A7 /* deploy.2.prototxt in CopyFiles */,
+				C95B98AD24D64FED00A875A7 /* opencv_face_detector_uint8.pb in CopyFiles */,
+				C95B98AE24D64FED00A875A7 /* opencv_face_detector.pbtxt in CopyFiles */,
+				C95B98AF24D64FED00A875A7 /* res10_300x300_ssd_iter_140000_fp16.caffemodel in CopyFiles */,
+				C95B98A324D64C9A00A875A7 /* beagle.jpg in CopyFiles */,
+				C95B98A424D64C9A00A875A7 /* cup.jpg in CopyFiles */,
+				C95B98A524D64C9A00A875A7 /* pineapple.jpg in CopyFiles */,
+				C95B98A624D64C9A00A875A7 /* scooter.jpg in CopyFiles */,
+				C95B98A724D64C9A00A875A7 /* space_shuttle.jpg in CopyFiles */,
+				C95B989B24D64C4800A875A7 /* bvlc_googlenet.caffemodel in CopyFiles */,
+				C95B989C24D64C4800A875A7 /* classification_classes_ILSVRC2012.txt in CopyFiles */,
+				C95B989D24D64C4800A875A7 /* deploy.prototxt in CopyFiles */,
+				C95B989524D6499500A875A7 /* digits.png in CopyFiles */,
+				C95B989624D6499500A875A7 /* mnist_cnn.pb in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +398,23 @@
 		C947280D249EE9680009B161 /* video */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = video; sourceTree = BUILT_PRODUCTS_DIR; };
 		C947280F249EE9680009B161 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = video/main.cpp; sourceTree = SOURCE_ROOT; };
 		C9472814249EE9E80009B161 /* video.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = video.entitlements; sourceTree = "<group>"; };
+		C95B988924D6496E00A875A7 /* mnist_cnn.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = mnist_cnn.pb; sourceTree = "<group>"; };
+		C95B988E24D6498200A875A7 /* deep */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = deep; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95B989024D6498200A875A7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C95B989724D6499E00A875A7 /* deep.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = deep.entitlements; sourceTree = "<group>"; };
+		C95B989824D64C3B00A875A7 /* bvlc_googlenet.caffemodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = bvlc_googlenet.caffemodel; sourceTree = "<group>"; };
+		C95B989924D64C3B00A875A7 /* classification_classes_ILSVRC2012.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = classification_classes_ILSVRC2012.txt; sourceTree = "<group>"; };
+		C95B989A24D64C3B00A875A7 /* deploy.prototxt */ = {isa = PBXFileReference; lastKnownFileType = text; path = deploy.prototxt; sourceTree = "<group>"; };
+		C95B989E24D64C9100A875A7 /* beagle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beagle.jpg; sourceTree = "<group>"; };
+		C95B989F24D64C9100A875A7 /* cup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cup.jpg; sourceTree = "<group>"; };
+		C95B98A024D64C9200A875A7 /* space_shuttle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space_shuttle.jpg; sourceTree = "<group>"; };
+		C95B98A124D64C9200A875A7 /* pineapple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pineapple.jpg; sourceTree = "<group>"; };
+		C95B98A224D64C9200A875A7 /* scooter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scooter.jpg; sourceTree = "<group>"; };
+		C95B98A824D64FE800A875A7 /* opencv_face_detector_uint8.pb */ = {isa = PBXFileReference; lastKnownFileType = file; path = opencv_face_detector_uint8.pb; sourceTree = "<group>"; };
+		C95B98A924D64FE800A875A7 /* deploy.2.prototxt */ = {isa = PBXFileReference; lastKnownFileType = text; path = deploy.2.prototxt; sourceTree = "<group>"; };
+		C95B98AA24D64FE800A875A7 /* res10_300x300_ssd_iter_140000_fp16.caffemodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = res10_300x300_ssd_iter_140000_fp16.caffemodel; sourceTree = "<group>"; };
+		C95B98AB24D64FE800A875A7 /* opencv_face_detector.pbtxt */ = {isa = PBXFileReference; lastKnownFileType = text; path = opencv_face_detector.pbtxt; sourceTree = "<group>"; };
+		C95B98B024D6507300A875A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C964EBEE24BAD38B00FBE442 /* edge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = edge; sourceTree = BUILT_PRODUCTS_DIR; };
 		C964EBF024BAD38B00FBE442 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C964EBF624BAD3A100FBE442 /* edge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = edge.entitlements; sourceTree = "<group>"; };
@@ -475,6 +532,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C947280A249EE9680009B161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95B988B24D6498200A875A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -629,8 +693,21 @@
 				C9CA12F324CDD40E00BE75A4 /* img3.jpg */,
 				C9EF0F1B24D5A7080046BAC5 /* digits.png */,
 				C9CA12D624CD4ACA00BE75A4 /* vtest.avi */,
+				C95B988924D6496E00A875A7 /* mnist_cnn.pb */,
 				C9CA12D224CD410E00BE75A4 /* haarcascade_eye.xml */,
 				C9CA12D324CD410E00BE75A4 /* haarcascade_frontalface_default.xml */,
+				C95B989824D64C3B00A875A7 /* bvlc_googlenet.caffemodel */,
+				C95B989924D64C3B00A875A7 /* classification_classes_ILSVRC2012.txt */,
+				C95B989A24D64C3B00A875A7 /* deploy.prototxt */,
+				C95B989E24D64C9100A875A7 /* beagle.jpg */,
+				C95B989F24D64C9100A875A7 /* cup.jpg */,
+				C95B98A124D64C9200A875A7 /* pineapple.jpg */,
+				C95B98A224D64C9200A875A7 /* scooter.jpg */,
+				C95B98A024D64C9200A875A7 /* space_shuttle.jpg */,
+				C95B98A924D64FE800A875A7 /* deploy.2.prototxt */,
+				C95B98A824D64FE800A875A7 /* opencv_face_detector_uint8.pb */,
+				C95B98AB24D64FE800A875A7 /* opencv_face_detector.pbtxt */,
+				C95B98AA24D64FE800A875A7 /* res10_300x300_ssd_iter_140000_fp16.caffemodel */,
 			);
 			path = files;
 			sourceTree = "<group>";
@@ -689,6 +766,7 @@
 				C9CA12DF24CDAE4B00BE75A4 /* feature */,
 				C9EF0F1424D5A0ED0046BAC5 /* knn */,
 				C9EF0F2D24D5B1350046BAC5 /* svm */,
+				C95B988F24D6498200A875A7 /* deep */,
 				C94727C4249E4E580009B161 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -719,6 +797,7 @@
 				C9CA12DE24CDAE4B00BE75A4 /* feature */,
 				C9EF0F1324D5A0ED0046BAC5 /* knn */,
 				C9EF0F2C24D5B1350046BAC5 /* svm */,
+				C95B988E24D6498200A875A7 /* deep */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -751,6 +830,16 @@
 				C9676223249EECFB00583F8A /* Info.plist */,
 			);
 			path = video;
+			sourceTree = "<group>";
+		};
+		C95B988F24D6498200A875A7 /* deep */ = {
+			isa = PBXGroup;
+			children = (
+				C95B989724D6499E00A875A7 /* deep.entitlements */,
+				C95B989024D6498200A875A7 /* main.cpp */,
+				C95B98B024D6507300A875A7 /* Info.plist */,
+			);
+			path = deep;
 			sourceTree = "<group>";
 		};
 		C964EBEF24BAD38B00FBE442 /* edge */ = {
@@ -1020,6 +1109,23 @@
 			name = video;
 			productName = video;
 			productReference = C947280D249EE9680009B161 /* video */;
+			productType = "com.apple.product-type.tool";
+		};
+		C95B988D24D6498200A875A7 /* deep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95B989224D6498200A875A7 /* Build configuration list for PBXNativeTarget "deep" */;
+			buildPhases = (
+				C95B988A24D6498200A875A7 /* Sources */,
+				C95B988B24D6498200A875A7 /* Frameworks */,
+				C95B988C24D6498200A875A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = deep;
+			productName = deep;
+			productReference = C95B988E24D6498200A875A7 /* deep */;
 			productType = "com.apple.product-type.tool";
 		};
 		C964EBED24BAD38B00FBE442 /* edge */ = {
@@ -1325,6 +1431,9 @@
 					C947280C249EE9680009B161 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					C95B988D24D6498200A875A7 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					C964EBED24BAD38B00FBE442 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -1411,6 +1520,7 @@
 				C9CA12DD24CDAE4B00BE75A4 /* feature */,
 				C9EF0F1224D5A0ED0046BAC5 /* knn */,
 				C9EF0F2B24D5B1350046BAC5 /* svm */,
+				C95B988D24D6498200A875A7 /* deep */,
 			);
 		};
 /* End PBXProject section */
@@ -1469,6 +1579,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9472810249EE9680009B161 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95B988A24D6498200A875A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95B989124D6498200A875A7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2342,6 +2460,30 @@
 			};
 			name = Release;
 		};
+		C95B989324D6498200A875A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = deep/deep.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65J2F745DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/deep/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C95B989424D6498200A875A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = deep/deep.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65J2F745DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/deep/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C964EBF224BAD38B00FBE442 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2767,6 +2909,15 @@
 			buildConfigurations = (
 				C9472812249EE9680009B161 /* Debug */,
 				C9472813249EE9680009B161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95B989224D6498200A875A7 /* Build configuration list for PBXNativeTarget "deep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95B989324D6498200A875A7 /* Debug */,
+				C95B989424D6498200A875A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
